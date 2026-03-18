@@ -1,0 +1,12 @@
+# Ignore sensitive files
+*.xlsx
+AI_Context.txt
+Security-Monthly-Report-*.xlsx
+
+# macOS
+.DS_Store
+~$*
+
+# Temp files
+*.tmp
+*.log
