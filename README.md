@@ -1,10 +1,9 @@
 # Invoke-M365SecurityReport
 
-> A single-script Microsoft 365 security auditing and reporting tool that consolidates telemetry from 11 security domains into a deduplicated monthly Excel workbook — with AI-powered executive summaries, posture scoring, and SharePoint integration.
+A single-script Microsoft 365 security auditing and reporting tool that consolidates telemetry from 11 security domains into a deduplicated monthly Excel workbook — with AI-powered executive summaries, posture scoring, and SharePoint integration.
 
 **Author:** Rolando Dominique  
 **Version:** 2.5.2  
-**License:** MIT  
 **Requires:** PowerShell 7+, [ImportExcel](https://github.com/dfinke/ImportExcel) module
 
 ---
@@ -30,7 +29,7 @@
 
 ## Overview
 
-`Invoke-M365SecurityReport` is a 3,400+ line PowerShell 7 script that replaces fragmented security monitoring with a single, automated reporting engine. It authenticates against Microsoft Graph, Office 365 Management, and Defender APIs, collects security events across 11 domains, deduplicates them against previous runs, and writes everything into a structured Excel workbook.
+This is a PowerShell 7 script that replaces fragmented security monitoring with a single, automated reporting engine. It authenticates against Microsoft Graph, Office 365 Management, and Defender APIs, collects security events across 11 domains, deduplicates them against previous runs, and writes everything into a structured Excel workbook.
 
 Run it weekly. It rolls findings into a monthly report automatically.
 
